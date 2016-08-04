@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1082A3D1D4EF1FF007E8ACC /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = C1082A3C1D4EF1FF007E8ACC /* btn.wav */; };
 		C16C780F1D4DA60A007D31B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16C780E1D4DA60A007D31B8 /* AppDelegate.swift */; };
 		C16C78111D4DA60A007D31B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16C78101D4DA60A007D31B8 /* ViewController.swift */; };
 		C16C78141D4DA60A007D31B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16C78121D4DA60A007D31B8 /* Main.storyboard */; };
 		C16C78161D4DA60A007D31B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16C78151D4DA60A007D31B8 /* Assets.xcassets */; };
 		C16C78191D4DA60A007D31B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16C78171D4DA60A007D31B8 /* LaunchScreen.storyboard */; };
+		C16C78231D4E74F3007D31B8 /* CuteFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C16C78221D4E74F3007D31B8 /* CuteFont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C1082A3C1D4EF1FF007E8ACC /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		C16C780B1D4DA60A007D31B8 /* retro-Calculator-course.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "retro-Calculator-course.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16C780E1D4DA60A007D31B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C16C78101D4DA60A007D31B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		C16C78151D4DA60A007D31B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C16C78181D4DA60A007D31B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C16C781A1D4DA60A007D31B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16C78221D4E74F3007D31B8 /* CuteFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CuteFont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		C16C780D1D4DA60A007D31B8 /* retro-Calculator-course */ = {
 			isa = PBXGroup;
 			children = (
+				C1082A3C1D4EF1FF007E8ACC /* btn.wav */,
+				C16C78221D4E74F3007D31B8 /* CuteFont.ttf */,
 				C16C780E1D4DA60A007D31B8 /* AppDelegate.swift */,
 				C16C78101D4DA60A007D31B8 /* ViewController.swift */,
 				C16C78121D4DA60A007D31B8 /* Main.storyboard */,
@@ -122,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1082A3D1D4EF1FF007E8ACC /* btn.wav in Resources */,
+				C16C78231D4E74F3007D31B8 /* CuteFont.ttf in Resources */,
 				C16C78191D4DA60A007D31B8 /* LaunchScreen.storyboard in Resources */,
 				C16C78161D4DA60A007D31B8 /* Assets.xcassets in Resources */,
 				C16C78141D4DA60A007D31B8 /* Main.storyboard in Resources */,
@@ -286,6 +294,7 @@
 				C16C781F1D4DA60A007D31B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
